@@ -3,7 +3,6 @@ export class Throttle {
     constructor(ttl) {
         this.lastTouched = 0;
         this.ttl = ttl;
-        this. = ttl;
     }
 
     static now() {
